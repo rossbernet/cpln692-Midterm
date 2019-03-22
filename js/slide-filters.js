@@ -27,7 +27,7 @@ var filter1 = function(feature) {
 };
 
 var filter2 = function(feature) {
-  return feature.properties.DOB_NAMESAKE == 1732;
+  return feature.properties["NAME"] == "Rittenhouse Square";
 };
 
 var filter3 = function(feature) {
@@ -35,5 +35,5 @@ var filter3 = function(feature) {
 };
 
 var filter4 = function(feature) {
-  return feature.properties.DOB_NAMESAKE == 1732;
+  return feature.properties["NAME"] == "Washington Square";
 };
