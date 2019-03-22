@@ -17,7 +17,7 @@ var Stamen_TonerLite = L.tileLayer(basemapURL, {
 }).addTo(map);
 
 
-var url = 'https://raw.githubusercontent.com/MUSA611-CPLN692-spring2019/cpln692-week7/master/labs/lab1/squaresPoly.geojson';
+var url = 'https://raw.githubusercontent.com/rossbernet/cpln692-midterm/master/data/squaresPoly.geojson';
 var jsondata;
 $.ajax(url).done(function(res) {
   jsondata = JSON.parse(res);
